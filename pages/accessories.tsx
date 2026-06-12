@@ -73,9 +73,12 @@ export default function Accessories() {
       <section className={styles.hero}>
         <div className={styles.heroBgWrapper}>
           <div className={styles.heroOverlay} />
-          <img
+          <Image
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsrsto9-5pHIc0pxteWxpds105eW4c7UTCDzzn_EF4SQG37LB4zt8fsiiDIwOknAF8Mitp5LLkhYdoRWg9wyp1ZCWZ6Qj98E_N_QTthGWFTcOZnVbs3UevyPhuflLEksoiYHqrrCSQJQwkX18PWbbwMC-8hNQF-61gB2Yderm8gp0g1FRorXhV5VMq0cerOA6LTOdlwiDbfkwDYtCuI3bR_PegOpFfuiPrcXW2hBgQ-nhZlyFoPWA6m5Lc9R8LKyTPokMaePpKgFQ"
             alt="Premium accessories"
+            fill
+            sizes="100vw"
+            priority
             className={styles.heroBg}
           />
         </div>
