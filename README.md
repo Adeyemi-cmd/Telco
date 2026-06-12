@@ -22,4 +22,3 @@ Premium phone brand landing page built with Next.js, TypeScript, and plain CSS. 
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
