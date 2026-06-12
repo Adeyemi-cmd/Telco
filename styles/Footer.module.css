@@ -1,0 +1,150 @@
+.footer {
+  background: var(--color-tertiary);
+  color: var(--color-on-tertiary);
+}
+
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 80px var(--spacing-margin-mobile);
+}
+
+@media (min-width: 768px) {
+  .inner {
+    padding: 80px var(--spacing-margin-desktop);
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 48px;
+  }
+}
+
+.brand {
+  grid-column: 1;
+}
+
+@media (min-width: 768px) {
+  .brand {
+    grid-column: 1;
+  }
+}
+
+.logo {
+  font-family: var(--font-headline-md);
+  font-size: 24px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: var(--color-on-tertiary);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.tagline {
+  font-family: var(--font-body-md);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-on-tertiary-fixed-variant);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+}
+
+.social span {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.social span:hover {
+  color: var(--color-on-tertiary);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.columnTitle {
+  font-family: var(--font-label-md);
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-on-tertiary);
+  margin-bottom: 24px;
+}
+
+.columnList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.columnList a {
+  color: var(--color-on-tertiary-fixed-variant);
+  text-decoration: none;
+  font-family: var(--font-body-md);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+
+.columnList a:hover {
+  color: var(--color-on-tertiary);
+}
+
+.bottom {
+  padding-top: 32px;
+  border-top: 1px solid var(--color-on-tertiary-fixed-variant);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.copy {
+  color: var(--color-on-tertiary-fixed-variant);
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  gap: 32px;
+}
+
+.links a {
+  color: var(--color-on-tertiary-fixed-variant);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--color-on-tertiary);
+}
